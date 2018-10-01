@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Weather Mobile Web App", "Weather Mobile Web App\Weather Mobile Web App.jsproj", "{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Android.ActiveCfg = Debug|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Android.Build.0 = Debug|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Android.Deploy.0 = Debug|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|iOS.ActiveCfg = Debug|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|iOS.Build.0 = Debug|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|iOS.Deploy.0 = Debug|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Android.ActiveCfg = Release|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Android.Build.0 = Release|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Android.Deploy.0 = Release|Android
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|iOS.ActiveCfg = Release|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|iOS.Build.0 = Release|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|iOS.Deploy.0 = Release|iOS
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{2FA829F9-55DE-4ECA-B141-858ED6D2FF8E}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC999383-AD92-45CB-B758-D9C2D7F38C0E}
+	EndGlobalSection
+EndGlobal
