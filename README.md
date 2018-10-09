@@ -1,5 +1,6 @@
 
 Weather App
+
 A weather tracking hybrid mobile web application that gives the daily temperature forecast. Users can view temperature forecast for the next 5 days for their current location. 
 
 Collaborated with a class colleague to develop a Weather app using knowledge from the course and outside sources
