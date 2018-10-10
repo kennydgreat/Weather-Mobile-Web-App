@@ -9,9 +9,11 @@ Learned to develop with Apache Cordova in 1 week, successfully implementing feat
 Planned development with a strong attention for course project requirement details, completing development in 3 weeks 
 
 ![](Capture.PNG) 
+
 ![](Capture3.PNG) 
+
 ![](Capture3.PNG)
 
-![]("app work through.mp4")
+
 
 Technologies: Apache Cordova framework, Jquery mobile, AJAX, Open Weather Map APIs, IndexedDB  for client-side storage, Visual Studio IDE for development 
