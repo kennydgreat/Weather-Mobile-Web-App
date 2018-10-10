@@ -34,7 +34,7 @@ function initApp() {
     $("#getLocation").click(function (event) {
         //event.preventDefault(); 
         getWeatherLocation();
-        print(4);
+        console.log("getLocation button was clicked");
     });
 
     // Callback that creates and populates a data table,
@@ -76,7 +76,7 @@ function initApp() {
                 var dayId = '#' + days_of_the_week[i];
                 $(dayId).collapsible("expand");
             } else {
-                $collapsibles[i].innerHTML = 'The Temperature is day not avaiable.';
+                $collapsibles[i].innerHTML = 'Temperature not yet avaiable.';
             }
         }
     }
