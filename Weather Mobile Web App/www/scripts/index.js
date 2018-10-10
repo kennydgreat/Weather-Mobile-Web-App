@@ -34,7 +34,7 @@ function initApp() {
     $("#getLocation").click(function (event) {
         //event.preventDefault(); 
         getWeatherLocation();
-
+        print(4);
     });
 
     // Callback that creates and populates a data table,
