@@ -1,29 +1,86 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-    <head>
+<head>
     <!--
         Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
         For details, see http://go.microsoft.com/fwlink/?LinkID=617521
     -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>WeatherMobileWebApp</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:
+http://api.openweathermap.org https://ssl.gstatic.com https://www.gstatic.com 'unsafe-eval'; style-src 'self'
+'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <title>WeatherMobileWebApp</title>
+</head>
+<body>
+    <div data-role="page" id="homepage">
+        <div data-role="header">
+
+            <h1>Weather Application </h1>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-    </body>
+        <div class="ui-field-contain" data-role="content">
+
+            <div data-role="collapsible" id="Sunday">
+                <h4>Sunday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Monday">
+                <h4>Monday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Tuesday">
+                <h4>Tuesday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Wednesday">
+                <h4>Wednesday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Thursday">
+                <h4>Thursday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Friday">
+                <h4>Friday</h4>
+                <p>Current status</p>
+            </div>
+            <div data-role="collapsible" id="Saturday">
+                <h4>Saturday</h4>
+                <p>Current status</p>
+            </div>
+
+        </div>
+        <button id="saveBtn" type="button" class="ui-btn ui-icon-star ui-btn-icon-left">Save Info</button>
+        <button id="getLocation" type="button" class="ui-btn ui-icon-star ui-btn-icon-left">Get location info</button>
+        <div data-role="footer">
+            <a href="#chartpage" class="ui-btn-left">Show Chart</a>
+
+        </div>
+    </div>
+    <div data-role="page" id="chartpage">
+        <div data-role="header">
+            <h1>Weather Chart</h1>
+        </div>
+        <div id="chart_div"></div>
+        <div data-role="footer">
+            <a href="#homepage" class="ui-btn-left" data-direction="reverse">Back to home page</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/jquery-1.8.0.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script src="scripts/weatherRetrieve.js"></script>
+    <script src="scripts/dataBase.js"></script>
+
+
+</body>
 </html>
