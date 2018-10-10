@@ -8,7 +8,7 @@ Developed business requirements documents (BRD), functional requirements, UI des
 Learned to develop with Apache Cordova in 1 week, successfully implementing features like getting user location, retrieving 5-day weather forecast and storing weather information for offline usage
 Planned development with a strong attention for course project requirement details, completing development in 3 weeks 
 
-![]('app walk through.gif') 
+![](app-walk-through.gif) 
 
 ![](Capture.PNG) 
 
