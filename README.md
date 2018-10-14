@@ -11,6 +11,6 @@ Planned development with a strong attention for course project requirement detai
 ![](app-walk-through.gif) 
 
 
-![](2018-10-14 12_03.jpg) 
+![]("2018-10-14 12_03.jpg") 
 
 Technologies: Apache Cordova framework, Jquery mobile, AJAX, Open Weather Map APIs, IndexedDB  for client-side storage, Visual Studio IDE for development 
